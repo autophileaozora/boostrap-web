@@ -1,0 +1,201 @@
+
+
+
+
+
+/* jumbotron */
+.jumbotron{
+    background-color: #f0f8ff;
+}
+.jumbotron .container{
+    text-align: center;
+    padding: 2px;
+}
+.jumbotron img{
+    width: 18%;
+    margin-top: 50px;
+}
+.jumbotron h3{
+    font-size: 24px;
+    font-family: Dancing Script, viga,sans-serif;
+}
+.jumbotron p{
+    font-size: 12px;
+}
+/* akhir jumbotron */
+
+.cool{
+    color: skyblue;
+}
+
+
+
+
+
+/* about */
+
+.about .container-fluid{
+    padding: 10px;
+}
+.about h2{
+    font-family: viga;
+}
+.about p{
+    color: #141313;
+}
+/* akhir about */
+
+
+
+
+
+
+
+
+/* portfolio */
+.portfolio{
+    background-color: aliceblue;
+    /* margin-top: -50px; */
+}
+
+.portfolio h2{
+    margin:-20px 0 40px;
+}
+
+
+/* akhir portfolio */
+
+
+
+
+
+/* contact */
+.contact .container{
+    width: 70%;
+}
+/* akhir contact */
+
+
+
+/* footer */
+footer{
+    background-color: #0099ff;
+    text-align: center;
+    padding: 35px 0;
+    color: white;
+}
+/* akhir footer */
+
+
+
+
+
+/* Desktop devices */
+@media (min-width: 992px) {
+    
+
+/* jumbotron */
+.jumbotron{
+    background-color: #f0f8ff;
+}
+.jumbotron .container{
+    text-align: center;
+    padding: 2px;
+}
+.jumbotron img{
+    width: 20%;
+    margin:70px 0 20px;
+}
+.jumbotron .display-4{
+    font-family: Dancing Script, viga,sans-serif;
+}
+.jumbotron svg{
+    margin-top: -70px;
+}
+
+.jumbotron h3{
+    font-size: 55px;
+}
+.jumbotron p{
+    font-size: 22px;
+}
+/* akhir jumbotron */
+
+.cool{
+    color: skyblue;
+}
+
+
+
+
+
+
+
+/* about */
+section{
+    margin:0;
+    padding: 0;
+    padding-top: 5rem;
+}
+.about{
+    margin-bottom: -80px;
+}
+.about .container-fluid{
+    /* margin-top:30px; */
+    margin: 0;
+    padding: 0;
+}
+.about h2{
+    font-family: viga;
+    margin-bottom: 60px;
+}
+.about p{
+    color: #141313;
+}
+/* akhir about */
+
+
+
+
+
+
+
+
+/* portfolio */
+.portfolio{
+    background-color: aliceblue;
+    margin-top: -50px;
+}
+
+.portfolio h2{
+    margin:-20px auto 40px;
+}
+.portfolio .container{
+    padding: 10px;
+}
+/* akhir portfolio */
+
+
+
+
+
+/* contact */
+.contact .container{
+    width: 70%;
+}
+/* akhir contact */
+
+
+
+/* footer */
+footer{
+    background-color: #0099ff;
+    text-align: center;
+    padding: 35px 0;
+    color: white;
+}
+/* akhir footer */
+
+
+
+}
